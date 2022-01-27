@@ -1,0 +1,201 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+  header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    font-size: 2.0rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+  }
+
+  section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote p {
+    color: black;
+    background-color: white;
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+  }
+
+  .left {
+    grid-column: 6 / 12;
+  }
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
